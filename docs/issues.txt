@@ -1,0 +1,13 @@
+1. Add Last name validation for the Clients CRUD. The last name shouldn't be empty. (x)
+2. When creating a trip, it is only possible to search for clients by the first name in the autocomplete field. Make it possible
+	to search by first name and/or last name. (x)
+3. Currently it is impossible to save trips, the screen just goes blank! (x)
+4. Currently there are two costs related to the trip: the hotel cost and the travel cost. The agency started to offer excursions in 
+	the destination and would like to add this cost to the total trip cost.(x)
+5. Currently, the user has to calculate the total cost of the trip, he would like the application to do it automatically and he 
+	would like to see it in the trip details screen.(x)
+6. Validate in the Trips CRUD that From date < To date (x)
+7. Write a query (just the query, no need for a UI interface) that will show the ten clients who spent the most amount of money 
+   in trips in total. The information we want to see is the name and last name of the client, the total spent amount and the 
+   destination of the trip he spent the most and the amount he spent in that trip.(x)
+    

@@ -1,0 +1,149 @@
+			
+#gbox_list {
+	margin: 0px auto -1px auto; 
+}
+
+
+.widthlesstext{
+	border:1px solid grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text{
+	border:1px solid grey;
+}
+
+.ui-autocomplete-input {
+	/*width: 400px;*/	 
+	border:1px solid grey;
+	background-color: #eaf4fd;	
+}
+
+.ui-menu-item {
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+textarea {
+	width: 430px;
+	height: 140px;
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	font-size: 0.8em;
+	border:1px solid grey;
+}
+
+label {			
+	width: 180px;
+	float:left;				
+}
+
+body {
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.ui-menu {
+	font-size: 0.8em;
+}
+
+.fieldError {
+	background-color: #FEAEAE;
+}
+
+.fieldChanged {
+	background-color: #BDC4FF;
+}
+
+#feedbackContainer {
+	color: red;
+	border:1px solid red;
+}
+
+.menuContainer {
+	height: 500px;
+	border: 1px solid grey;
+}
+
+.headerContainer {
+	background-color: #e0e0ff;
+	height: 50px;
+}
+
+.headerContainer ul {
+	list-style-type: none;
+}
+
+.headerContainer ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.menu {
+	list-style-type: none;
+	margin-left: 2px;
+  	padding-left: 2px; 
+}
+
+.submenu {
+	list-style-type: none;
+	margin-left: 5px;
+  	padding-left: 5px;	
+}
+
+.submenu a {
+	text-decoration: none;
+	color: black;
+}
+
+#contentContainer {	
+	
+}
+
+#selectorContainer {			
+	position:relative;																	
+	margin: 30px auto 0px;
+}
+
+#selectorButtons {
+	margin: 0px auto -1px;
+	width: 200px;
+}
+
+#filterContainer {
+	margin: 0px auto 10px;
+	width: 500px;
+}
+
+.gridSearch {
+	width: 500px;
+	border:1px solid grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box {
+	float: left;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 2px;
+	height: 170px;
+}
+
+.boxesContainer {
+	float: left;
+}
+
+.buttonsContainer {
+	position: relative;
+	height: 100px;
+	z-index: 1;
+	clear:both;
+}
+
+#finalCostForm label {
+	width: 250px;
+}

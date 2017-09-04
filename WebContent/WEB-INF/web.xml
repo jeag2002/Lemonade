@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+    
+ 	<session-config>
+    	<session-timeout>30</session-timeout>
+  	</session-config>
+
+	<welcome-file-list>
+		<welcome-file>main</welcome-file>
+	</welcome-file-list>    
+    
+    
+	<!-- Login servlet-->
+	<servlet>
+		<servlet-name>main</servlet-name>
+		<servlet-class>be.lemonade.vanillitravels.servlet.MainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>main</servlet-name>
+		<url-pattern>/main</url-pattern>
+	</servlet-mapping>
+	
+	<!-- GeneralSelector servlet-->
+	<servlet>
+		<servlet-name>generalSelector</servlet-name>
+		<servlet-class>be.vsko.jss.servlet.GeneralSelector</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>generalSelector</servlet-name>
+		<url-pattern>/generalSelector</url-pattern>
+	</servlet-mapping>
+	
+	<!-- GeneralEditor servlet-->
+	<servlet>
+		<servlet-name>generalEditor</servlet-name>
+		<servlet-class>be.vsko.jss.servlet.GeneralEditor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>generalEditor</servlet-name>
+		<url-pattern>/generalEditor</url-pattern>
+	</servlet-mapping>
+	
+	<!-- GeneralAjax servlet-->
+	<servlet>
+		<servlet-name>generalAjaxServlet</servlet-name>
+		<servlet-class>be.vsko.jss.servlet.GeneralAjaxServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>generalAjaxServlet</servlet-name>
+		<url-pattern>/generalAjaxServlet</url-pattern>
+	</servlet-mapping>
+		
+</web-app>
+
+
